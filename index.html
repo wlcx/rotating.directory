@@ -12,11 +12,22 @@
             height: 100vh;
 
         }
+        table {
+            animation: 5s linear rotate infinite
+        }
         footer {
             position: absolute;
             font-size: 0.7rem;
             bottom: 0;
             right: 0;
+        }
+        @keyframes rotate {
+                0% {
+                        transform: rotate(0);
+                }
+                100% {
+                        transform: rotate(360deg);
+                }
         }
     </style>
 </head>
